@@ -53,3 +53,11 @@ nav:
     - Search Engine Discovery: module-1-information-gathering/search-engine-discovery.md
     - Web Archives: module-1-information-gathering/web-archives.md
     - Automating Recon: module-1-information-gathering/automating-recon.md
+  - Module 2 - File Transfers:
+    - Overview & Cheatsheet: module-2-file-transfers/index.md
+    - Windows Downloads: module-2-file-transfers/windows-downloads.md
+    - Windows Uploads: module-2-file-transfers/windows-uploads.md
+    - Linux Transfers: module-2-file-transfers/linux-transfers.md
+    - Transfers with Code: module-2-file-transfers/code-transfers.md
+    - Netcat / PSRemoting / RDP: module-2-file-transfers/misc-transfers.md
+    - Protected Transfers: module-2-file-transfers/protected-transfers.md
