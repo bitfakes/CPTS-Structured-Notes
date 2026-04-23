@@ -1,0 +1,55 @@
+site_name: CPTS Notes
+site_description: Certified Penetration Testing Specialist Study Notes
+
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: red
+    accent: red
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+    - content.code.annotate
+
+plugins:
+  - search
+  - tags
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - tables
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Module 1 - Information Gathering:
+    - Overview & Cheatsheet: module-1-information-gathering/index.md
+    - Introduction: module-1-information-gathering/introduction.md
+    - WHOIS: module-1-information-gathering/whois.md
+    - DNS & Digging DNS: module-1-information-gathering/dns.md
+    - Subdomains & Brute Force: module-1-information-gathering/subdomains.md
+    - DNS Zone Transfers: module-1-information-gathering/dns-zone-transfers.md
+    - Virtual Hosts: module-1-information-gathering/virtual-hosts.md
+    - Certificate Transparency Logs: module-1-information-gathering/certificate-transparency.md
+    - Fingerprinting: module-1-information-gathering/fingerprinting.md
+    - Crawling: module-1-information-gathering/crawling.md
+    - Robots.txt: module-1-information-gathering/robots-txt.md
+    - Well-Known URIs: module-1-information-gathering/well-known-uris.md
+    - Web Crawlers (Tools): module-1-information-gathering/web-crawlers.md
+    - Search Engine Discovery: module-1-information-gathering/search-engine-discovery.md
+    - Web Archives: module-1-information-gathering/web-archives.md
+    - Automating Recon: module-1-information-gathering/automating-recon.md
