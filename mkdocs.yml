@@ -61,3 +61,9 @@ nav:
     - Transfers with Code: module-2-file-transfers/code-transfers.md
     - Netcat / PSRemoting / RDP: module-2-file-transfers/misc-transfers.md
     - Protected Transfers: module-2-file-transfers/protected-transfers.md
+  - Module 3 - Metasploit:
+    - Overview & Cheatsheet: module-3-metasploit/index.md
+    - Modules & Payloads: module-3-metasploit/modules.md
+    - msfvenom & Encoders: module-3-metasploit/msfvenom.md
+    - Database & Workspaces: module-3-metasploit/databases.md
+    - Sessions & Jobs: module-3-metasploit/sessions-jobs.md
