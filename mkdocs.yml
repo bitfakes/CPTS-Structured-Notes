@@ -67,3 +67,14 @@ nav:
     - msfvenom & Encoders: module-3-metasploit/msfvenom.md
     - Database & Workspaces: module-3-metasploit/databases.md
     - Sessions & Jobs: module-3-metasploit/sessions-jobs.md
+  - Module 4 - Password Attacks:
+    - Overview & Cheatsheet: module-4-password-attacks/index.md
+    - Password Cracking (JtR & Hashcat): module-4-password-attacks/password-cracking.md
+    - Cracking Files & Archives: module-4-password-attacks/cracking-files-archives.md
+    - Network Services: module-4-password-attacks/network-services.md
+    - Windows Credentials: module-4-password-attacks/windows-credentials.md
+    - Active Directory & NTDS.dit: module-4-password-attacks/active-directory.md
+    - Credential Hunting: module-4-password-attacks/credential-hunting.md
+    - Pass the Hash: module-4-password-attacks/pass-the-hash.md
+    - Pass the Ticket: module-4-password-attacks/pass-the-ticket.md
+    - Pivoting: module-4-password-attacks/pivoting.md
